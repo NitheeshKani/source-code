@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="./responsive1.css">
+  <!-- fevicon -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" href="public/2.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="public/2.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="public/2.png" sizes="180x180">
+
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./desktop-2.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League Spartan:wght@500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+
+  <style>
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+
+    .dropdown {
+      position: fixed;
+      display: inline-block;
+      min-width: auto;
+      font-style: inherit;
+
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      font-size: 15px;
+      text-transform: capitalize;
+      background-color: #e8f0e4;
+      min-width: auto;
+      border-radius: 0 0 12px 12px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+
+    }
+
+    .dropdown-content a {
+      text-align: left;
+      text-transform: capitalize;
+      color: #666666;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+    }
+
+    .dropdown0 {
+      position: relative;
+      display: inline-block;
+      min-width: auto;
+    }
+
+    .dropdown0-content {
+      display: none;
+      position: absolute;
+      background-color: #e8f0e4;
+      font-size: 15px;
+      text-transform: capitalize;
+      min-width: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 25% 10%;
+      z-index: 1;
+
+
+    }
+
+    .dropdown0-content a {
+      text-align: left;
+
+      color: #666666;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+    }
+
+    .dropdown1 {
+      position: relative;
+      display: inline-block;
+      min-width: auto;
+    }
+
+    .dropdown1-content {
+      font-size: 15px;
+      display: none;
+      position: absolute;
+      float: left;
+      background-color: #e8f0e4;
+      min-width: auto;
+      border-radius: 40px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+
+
+    }
+
+    .dropdown1-content a {
+      text-align: justify;
+      font-size: 15px;
+
+      color: #666666;
+      padding: 12px 25px;
+      text-decoration: none;
+      display: block;
+
+
+    }
+
+    .dropdown2 {
+      position: relative;
+      display: inline-block;
+      min-width: auto;
+    }
+
+    .dropdown2-content {
+      display: none;
+      position: absolute;
+
+      background-color: #e8f0e4;
+      min-width: auto;
+      border-radius: 43px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+
+
+    }
+
+    .dropdown2-content a {
+      text-align: left;
+
+      color: #666666;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+
+    }
+
+    .dropdown4 {
+      position: relative;
+      display: inline-block;
+      min-width: auto;
+    }
+
+    .dropdown4-content {
+      display: none;
+      position: absolute;
+
+      background-color: #e8f0e4;
+      min-width: auto;
+      border-radius: 38px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+
+      margin-right: 10px;
+
+    }
+
+    .dropdown4-content a {
+      text-align: left;
+
+      color: #666666;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+
+    }
+
+    .dropdown5 {
+      position: relative;
+      display: inline-block;
+      min-width: auto;
+
+    }
+
+    .dropdown5-content {
+      display: none;
+      position: absolute;
+      padding: auto;
+      background-color: #e8f0e4;
+      min-width: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+
+
+
+
+
+
+    }
+
+    .dropdown5-content a {
+      text-align: left;
+
+      color: #666666;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+
+    }
+
+    .dropdown6 {
+      position: relative;
+      display: inline-block;
+      min-width: auto;
+    }
+
+    .dropdown6-content {
+      display: none;
+      position: absolute;
+      background-color: #e8f0e4;
+      min-width: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+
+
+    }
+
+    .dropdown6-content a {
+      text-align: left;
+
+      color: #666666;
+      padding: 12px 16px;
+      text-decoration: none;
+
+      display: block;
+
+
+    }
+
+    .dropdown7 {
+      position: relative;
+      display: inline-block;
+      min-width: auto;
+    }
+
+    .dropdown7-content {
+      display: none;
+      position: absolute;
+
+      background-color: #e8f0e4;
+      min-width: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      width: auto;
+      height: auto;
+
+
+
+    }
+
+    .dropdown7-content a {
+      text-align: left;
+
+      color: #666666;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+    }
+
+    .dropdown0-content a:hover {
+      background-color: #E9952F;
+      color: #ffffff
+    }
+
+    .dropdown1-content a:hover {
+      background-color: #E9952F;
+      color: #ffffff
+    }
+
+    .dropdown2-content a:hover {
+      background-color: #E9952F;
+      color: #ffffff
+    }
+
+    .dropdown3-content a:hover {
+      background-color: #E9952F;
+      color: #ffffff
+    }
+
+    .dropdown4-content a:hover {
+      background-color: #E9952F;
+      color: #ffffff
+    }
+
+    .dropdown5-content a:hover {
+      background-color: #E9952F;
+      color: #ffffff
+    }
+
+    .dropdown6-content a:hover {
+      background-color: #E9952F;
+      color: #ffffff
+    }
+
+    .dropdown7-content a:hover {
+      background-color: #E9952F;
+      color: #ffffff
+    }
+
+    .dropdown1:hover .dropdown1-content {
+      display: block;
+    }
+
+    .dropdown2:hover .dropdown2-content {
+      display: block;
+    }
+
+    .dropdown0:hover .dropdown0-content {
+      display: block;
+    }
+
+    .dropdown4:hover .dropdown4-content {
+      display: block;
+    }
+
+    .dropdown5:hover .dropdown5-content {
+      display: block;
+    }
+
+    .dropdown6:hover .dropdown6-content {
+      display: block;
+    }
+
+    .dropdown7:hover .dropdown7-content {
+      display: block;
+    }
+
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+    #stable {
+      position: fixed;
+
+    }
+
+    .btn {
+      text-decoration: none !important;
+      outline: none !important;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+    }
+  </style>
+  <style type="text/css">
+    <!--
+    .style1 {
+      color: #000000
+    }
+    -->
+  </style>
+  <style>
+    .blink {
+      width: 200px;
+      height: 50px;
+
+      padding: 15px;
+      text-align: center;
+      line-height: 50px;
+    }
+
+    #h {
+      color: #efedeb;
+      font-size: 15px;
+      /*font-family: Gorgia, 'Times New Roman', Times, serif;*/
+
+      /*	animation: blink 1s linear infinite;
+      /*text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5),
+       3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5),
+       2px 2px 2px rgba(66,78,206,0);*/
+
+    }
+
+    .login {
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: Arial;
+      color: #ffffff;
+      width: 25px;
+      font-size: 20px;
+      background: #e6a31c;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+
+    }
+
+    .login:hover {
+      background: #027e23;
+      text-decoration: none;
+    }
+
+    .login1:hover {
+      background: #027e23;
+      text-decoration: none;
+    }
+
+    .style2 {
+      color: #666666
+    }
+
+    .style3 {
+      color: #125F07
+    }
+
+    .style4 {
+      font-size: 14px
+    }
+
+    .login1 {
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: Arial;
+      color: #ffffff;
+      width: 25px;
+      font-size: 20px;
+      background: #e6a31c;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    .style5 {
+      font-size: 16px;
+      color: #333333;
+    }
+
+    .style6 {
+      color: #333333
+    }
+
+    .style7 {
+      font-size: 12px
+    }
+
+    .style8 {
+      color: #666666;
+      font-size: 14px;
+    }
+
+    .login11 {
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: Arial;
+      color: #ffffff;
+      width: 25px;
+      font-size: 20px;
+      background: #e6a31c;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+  </style>
+  <script type="text/javascript">
+    function newPopup(url) {
+      popupWindow = window.open(
+        url, 'popUpWindow', 'height=550,width=550,left=400,top=400,menubar=no,location=no,directories=no,status=yes')
+    }
+  </script>
+  <title>GRIT DIGITECH</title>
+</head>
+
+<body>
+  <div class="desktop-2">
+
+    <img class="desktop-2-child" alt="" src="public/ellipse-150.svg" />
+  </div>
+  </div>
+
+  <div class="desktop-2-inner"> <img class="icon1" alt="" src="public/2-1-11@2x.png" /> <b
+      class="grit-digitech"><span>GR</span><span class="it">IT</span><span> </span><span
+        class="digitech">DIGITECH</span></b></div>
+  <!-- Menu--->
+  <div class="rectangle-parent7">
+    <div class="group-child7">
+      <li>
+        <!-- <div class="blink"><b><a id="h" class="login11" href="./login.html">Log In</a></b></div> -->
+      </li>
+    </div>
+  </div>
+  <!-- <div class="csr">Log in</div> -->
+  </div>
+
+  <ul class="btn">
+
+    <div class="services-parent">
+      <div class="services">
+        <div class="dropdown">
+          <li><a href="#">Services &nbsp<i class="fa fa-caret-down"></i></a> </li>
+          <div class="dropdown-content">
+            <div class="dropdown1"><a href="#">IT Services&nbsp &nbsp<i class="fa fa-caret-down"></i></a>
+
+              <div class="dropdown1-content">
+                <a href="#">Web Application Development </a></li>
+                <a href="#">Mobile Application Development & Services </a>
+                <a href="#">Outsourced Development Services</a>
+                <a href="#">Mobile First Web Development </a>
+                <a href="#">Blockchain / Cryptocurrency
+                  Development & Support</a>
+                <a href="#">NFT / Marketplace DevOps </a>
+              </div>
+            </div>
+
+            <div class="dropdown2"> <a href="#">HR Services&nbsp &nbsp<i class="fa fa-caret-down"></i></a>
+              <div class="dropdown2-content">
+                <a href="#">GRIT Talents </a>
+                <!-- <a href="#">IT Recruitment&nbsp &nbsp </a>
+							 <!-- <div class="dropdown6-content">
+                                 <a href="#">RPO</a>
+                                 <a href="#">Contingency Model</a>
+                                 <a href="#">Retained Search</a>
+                                  <a href="#">Freelance Model</a>
+                                  <a href="#">Project Based</a>
+                                  <a href="#">Committed Spend</a>
+                                 <a href="#">Exclusive Model</a>
+                                </div>
+                              </div>-->
+                <!-- <div class="dropdown7">
+                                 <a href="#">white label HR Tech. solutions&nbsp &nbsp<i class="fa fa-caret-down"></i> </a>
+                                 <div class="dropdown7-content">
+                                    <a href="#">Consulting</a>
+                                    <a href="#">Staffing</a>
+                              <a href="#">Technology delivery</a>                              </div></div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- product menu-->
+
+    <div class="products-parent">
+      <div class="services">
+        <div class="dropdown">
+          <li> <a href="#">Products&nbsp <i class="fa fa-caret-down"></i></a> </li>
+          <div class="dropdown-content">
+            <div class="dropdown1"><a href="#">GRIT Laas&nbsp &nbsp<i class="fa fa-caret-down"></i></a></div>
+
+            <div class="dropdown2"> <a href="#">GRIT Security&nbsp &nbsp<i class="fa fa-caret-down"></i></a></div>
+          </div>
+          <!--<div class="dropdown0-content">
+                     <div class="dropdown4">
+                           <a href="#">LaaS solution&nbsp &nbsp <i class="fa fa-caret-down"></i></a></li>
+                           <div class="dropdown4-content">
+                              <a href="#">Individual without premium  </a>
+                              <a href="#">Individual Premium </a>
+                              <div class="dropdown5">
+                                 <a href="#">Institutions&nbsp &nbsp <i class="fa fa-caret-down"></i> </a>
+                                 <div class="dropdown5-content">
+                                    <a href="#">Schools</a>
+                                    <a href="#">Colleges</a>
+                                 </div>
+                             </div>
+                              <a href="#">Corporates </a>
+                              <a href="#">Government Partnership </a>
+                              <a href="#">GRIT Wallet Support  </a>
+                        </div></div></div>-->
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+    <div class="contact-us"> <a href="#contact" class="style3">Contact Us</a></div>
+    <div class="rectangle-parent6">
+      <div class="group-child6">
+        <li>
+          <div class="blink"><b><a id="h" class="login" href="https://www.gritfoundation.in/">CSR</a></b></div>
+        </li>
+      </div>
+    </div>
+
+  </ul>
+
+
+  <!-- End of Menu-->
+
+
+
+
+  <div class="ellipse-parent">
+    <img class="ellipse-icon" alt="" src="public/ellipse-1331.svg" />
+    <div id="home" class="your-business-partner-in-smart">
+      <span class="your-business-partner-in"><span>Your Business Partner in</span><span class="span">
+        </span></span><span class="span"><span class="smart-solution1">Smart Solution</span></span>
+    </div>
+  </div>
+  <div class="ellipse-group">
+    <img class="group-child8" alt="" src="public/ellipse-135.svg" />
+    <div class="helping-our-customers-digitall">
+      Helping our customers digitally transform their businesses to create a
+      positive impact for greater good of the community. Building truly easy
+      to use learning as a service platform through strategic and managed
+      services.
+    </div>
+  </div>
+  <div class="rectangle-parent8">
+
+    <!-- <div class="group-child9"></div> -->
+    <div class="get-quote-for-free">
+      <!-- <a href="demo.html" onClick="newPopup(this.href);return false">Get Demo for Free</a> -->
+    </div>
+  </div>
+  <img class="starting-a-business-project-pa" alt="" src="public/starting-a-business-projectpana-1.svg" />
+
+  <!-- choose us---->
+  <div class="why-choose-us">Why Choose Us</div>
+  <div class="choose" style="right:300px">
+    <div class="rectangle-parent9">
+      <div class="group-child10"></div>
+      <img class="group-child11" alt="" src="public/ellipse-138.svg" /><img class="e-learning-icon-1" alt=""
+        src="public/elearningicon-1.svg" />
+      <div class="vernacular-digital-education">
+        <strong>Vernacular Digital Education
+        </strong>
+      </div>
+      <div class="lorem-ipsum-dolor-sit-amet-con">
+        Localized, simple and ridiculously easy to use Learning as a Service like GRIT Tamil (தமிழ்), GRIT Telugu
+        (తెలుగు), GRIT Kanada (ಕನ್ನಡ) etc. </p>
+      </div>
+    </div>
+    <div class="rectangle-parent10">
+      <div class="group-child10"></div>
+      <img class="group-child11" alt="" src="public/ellipse-139.svg" /><img class="services-icon-1" alt=""
+        src="public/servicesicon-1.svg" />
+      <div class="vernacular-digital-education"><strong>Utility Services</strong></div>
+      <div class="lorem-ipsum-dolor-sit-amet-con">
+        <div align="justify">Pay per use. Making e-learning affordable to millions. Subscription to premium or
+          advertisements with one rupee per minute usage.</div>
+      </div>
+    </div>
+    <div class="rectangle-parent11">
+      <div class="group-child10"></div>
+      <img class="group-child11" alt="" src="public/ellipse-138.svg" /><img class="market-research-icon-1" alt=""
+        src="public/marketresearchicon-1.svg" />
+      <div class="vernacular-digital-education"><strong>Silent Marketing</strong></div>
+      <div class="lorem-ipsum-dolor-sit-amet-con">
+        <div align="justify">Making a positive impact through Corporate Social Responsibility and doing our little in
+          bringing positivity in our communities.</div>
+      </div>
+    </div>
+    <div class="rectangle-parent12">
+      <div class="group-child10"></div>
+      <img class="group-child11" alt="" src="public/ellipse-139.svg" /><img class="file-upload-export-icon-2" alt=""
+        src="public/fileuploadexporticon-2.svg" />
+      <div class="content-upload-and-access">
+        <span class="content-upload"><strong>Content Upload </span>and Access</strong>
+      </div>
+      <div class="lorem-ipsum-dolor-sit-amet-con">
+        Upload and access to content (B2C & B2B) in Learning as a Service platform> It enables us to gain and share what
+        is best in the market.
+
+      </div>
+    </div>
+    <div class="rectangle-parent13">
+      <div class="group-child18"></div>
+      <img class="group-child11" alt="" src="public/ellipse-140.svg" /><img class="rich-icon-1" alt=""
+        src="public/richicon-1.svg" />
+      <div class="vernacular-digital-education"><strong>Affordabilty</strong></div>
+      <div class="lorem-ipsum-dolor-sit-amet-con4">
+        <div align="justify">Making online education safe, equal and secure for all.Spend what you can afford to pay.
+          Stay now and pay later
+        </div>
+      </div>
+    </div>
+    <div class="rectangle-parent14">
+      <div class="group-child10"></div>
+      <img class="group-child11" alt="" src="public/ellipse-139.svg" />
+      <div class="vernacular-digital-education"><strong>Undercover Market</strong></div>
+      <div class="lorem-ipsum-dolor-sit-amet-con">
+        <div align="justify">Serving the most vulnerable, underprivileged meritorious and ambitious service providers
+          and learners.
+        </div>
+      </div>
+      <img class="data-analysis-icon-1" alt="" src="public/dataanalysisicon-1.svg" />
+    </div>
+    <div class="rectangle-parent15">
+      <div class="group-child10"></div>
+      <img class="group-child11" alt="" src="public/ellipse-139.svg" />
+      <div class="content-upload-and-access"><strong>Domain Expertise</strong></div>
+      <div class="lorem-ipsum-dolor-sit-amet-con">
+        <div align="justify">Own content creation. Strategic and personalized learning methodologies. Technology is a
+          learnable skills helps to make wealth through technology. </div>
+      </div>
+      <img class="world-wide-web-icon-1" alt="" src="public/worldwidewebicon-1.svg" />
+    </div>
+    <div class="rectangle-parent16">
+      <div class="group-child10"></div>
+      <img class="group-child11" alt="" src="public/ellipse-138.svg" />
+      <div class="vernacular-digital-education"><strong>Working with Government</strong></div>
+      <div class="lorem-ipsum-dolor-sit-amet-con">
+        <div align="justify">Partnership with Department of Social Defence,Government of TamilNadu. Student Exchange
+          program partnership with UK Government.
+
+          .
+
+        </div>
+      </div>
+
+      <img class="government-icon-1" alt="" src="public/governmenticon-1.svg" />
+    </div>
+  </div>
+  <!-- end of choose us-->
+  <div class="plus-parent">
+    <div class="plus">21</div>
+    <div class="student">3350</div>
+    <div class="student1">Students Beneficiaries</div>
+    <div class="college">15</div>
+    <div class="college1">Schools & Colleges Approached </div>
+    <div class="customers3">Corporate Clients signed</div>
+    <div class="line-div"></div>
+    <div class="group-child26"></div>
+  </div>
+  <div class="desktop-2-inner1">
+    <div class="group-child27"></div>
+  </div>
+  <img class="vector-icon" alt="" src="public/vector-89.svg" /><img class="bouncy-yellow-paper-plane-1-icon" alt=""
+    src="public/bouncyyellowpaperplane-1@2x.png" />
+  <div class="learning-as-a-service-platform-parent">
+    <div id="about" class="learning-as-a-service-platform">
+      Learning as a Service Platform
+    </div>
+    <div class="group-child28"></div>
+    <div class="group-child29"></div>
+    <div class="group-child30"></div>
+    <div class="socially-purpose-driven-busine">
+      <div align="justify">Socially purpose driven business providing a Next Generation Learning
+        as a Service Platform (GRIT LaaS). Passionate in connecting
+        underserved market to succeed by providing equal opportunity to WIN
+        life.
+      </div>
+    </div>
+    <div class="contact-91-8610342869">
+      <span>Contact :</span><span class="it"> +91 8610342869</span>
+    </div>
+    <div class="group-child31"></div>
+    <div class="group-child32"></div>
+    <div class="get-quote"> <a href="demo.html" onClick="newPopup(this.href);return false"> Get Demo </a></div>
+    <div class="read-more">Read More</div>
+  </div>
+  <div class="rectangle-parent17">
+    <div class="group-child33"></div>
+    <div class="group-child34"></div>
+    <div class="group-child35"></div>
+    <div class="group-child36"></div>
+    <div class="group-child37"></div>
+    <div class="group-child38"></div>
+    <div class="group-child39"></div>
+    <div class="group-child40"></div>
+    <img class="image-132-icon" alt="" src="public/image-132@2x.png" /><img class="image-133-icon" alt=""
+      src="public/image-133@2x.png" /><img class="image-134-icon" alt="" src="public/image-134@2x.png" /><img
+      class="image-135-icon" alt="" src="public/image-135@2x.png" /><img class="image-136-icon" alt=""
+      src="public/image-136@2x.png" /><img class="image-137-icon" alt="" src="public/image-137@2x.png" /><img
+      class="image-138-icon" alt="" src="public/image-138@2x.png" /><img class="image-139-icon" alt=""
+      src="public/image-139@2x.png" />
+  </div>
+  <div class="our-proud-partners-parent">
+    <div class="our-proud-partners">Our Proud Partners</div>
+    <div class="lorem-ipsum-dolor-sit-amet-con8">
+      <p align="justify" class="lorem-ipsum-dolor style2 style4">
+        Our valued partners range from various capabilities, from Startups, SMEs, Enterprise, MNCs, Consulting business,
+        Government and Private partnerships with the service provided in Recruitment, GRIT Learning as a Service
+        Platform, E-Learning and Digital & Transformation</p>
+    </div>
+    <div class="rectangle-parent18">
+      <div class="group-child41"></div>
+      <div class="know-more">Know More</div>
+    </div>
+  </div>
+  <img class="image-140-icon" alt="" src="public/image-140@2x.png" />
+  <div class="recognized-by">RECOGNIZED BY</div>
+  <div class="group-parent3">
+    <div class="ellipse-container">
+      <img class="group-child42" alt="" src="public/ellipse-147.svg" />
+      <div class="group-child43"></div>
+      <div class="group-child44"></div>
+      <div class="group-child45"></div>
+      <div class="group-child46"></div>
+      <div class="group-child47"></div>
+      <img class="vector-icon1" alt="" src="public/vector1.svg" />
+
+      <img class="vector-icon2" alt="" src="public/vector1.svg" /><img class="vector-icon3" alt=""
+        src="public/vector1.svg" /><img class="vector-icon4" alt="" src="public/vector1.svg" /><img
+        class="e-learning-icon-1-1" alt="" src="public/elearningicon-1.svg" />
+      <div class="learning-as-a-service-platform1">
+        Learning as a Service Platform </div>
+      <div class="web-application-development">
+        Web Application Development
+      </div>
+      <div class="mobile-application-development">
+        Mobile Application Development
+      </div>
+      <div class="blockchain-development">Blockchain Development</div>
+      <div class="socially-purpose-driven-busine1 style2">
+        Socially purpose driven business providing a Next Generation
+        Learning as a Service Platform (GRIT LaaS) </div>
+      <div class="this-is-the-creation-of-applic">
+        This is the creation of application programs that reside on remote
+        servers and are delivered to the user's device over the Internet.
+      </div>
+      <div class="mobile-application-development1">
+        Mobile application development is the process of making software for
+        tablets, most commonly for the Android and iOS . </div>
+      <div class="this-is-simply-a-program-or-pl">
+        This is simply a program or platform that uses the features and
+        benefits of a blockchain, transparency, and reliability.
+      </div>
+      <img class="web-development-icon-1" alt="" src="public/webdevelopmenticon-1.svg" /><img
+        class="mobile-app-dev-icon-1" alt="" src="public/mobileappdevicon-1.svg" />
+    </div>
+    <img class="blockchain-development-icon-1" alt="" src="public/blockchaindevelopmenticon-1.svg" />
+  </div>
+  <img class="kids-studying-from-home-rafiki" alt="" src="public/kids-studying-from-homerafiki-1.svg" />
+  <div class="lorem-ipsum-dolor-sit-amet-con-parent">
+    <div class="lorem-ipsum-dolor-sit-amet-con9">
+      <div align="justify" class="style2">Possessing indomitable spirit. Having a drive for achievement regardless of
+        upbringing or situation.Making every deserving learner and trainer an equal opportunity to win life. We connect
+        Training providers to learners. Help learners to get industry ready through our service offerings. </div>
+    </div>
+    <div class="we-provide-this-services">We Provide This Services</div>
+    <div class="group-parent4">
+      <div class="we-provide-quality-services-th-parent">
+        <div class="we-provide-quality-services-th">
+          We provide quality services that is beyond your expectation
+        </div>
+        <img class="accept-icon-11" alt="" src="public/accepticon-11.svg" />
+      </div>
+      <div class="get-custom-made-services-beyon-parent">
+        <div class="we-provide-quality-services-th">
+          Get custom made services beyond your expectation
+        </div>
+        <img class="accept-icon-11" alt="" src="public/accepticon-2.svg" />
+      </div>
+      <div class="ontime-completion-of-services-parent">
+        <div class="we-provide-quality-services-th">
+          Ontime completion of services
+        </div>
+        <img class="accept-icon-11" alt="" src="public/accepticon-3.svg" />
+      </div>
+      <div class="best-suggestion-and-services-b-parent">
+        <div class="we-provide-quality-services-th">
+          Best suggestion and services by our expert team
+        </div>
+        <img class="accept-icon-11" alt="" src="public/accepticon-4.svg" />
+      </div>
+    </div>
+  </div>
+  <div class="group-parent5">
+
+    <!--client feedback-->
+    <div class="feedback" style="position:relative; left:135px">
+      <div class="group-parent6">
+        <div class="group-parent7">
+          <div class="group-parent7">
+            <div class="group-child48"></div>
+            <img class="group-child49" alt="" src="public/group-8.svg" />
+            <div class="joseph">Gajendra</div>
+            <div class="clean-service">Clean Service</div>
+            <div class="lorem-ipsum-dolor-sit-amet-con10">It is excellent collaborating and sure shall bring us both
+              assistance to scale our Companies and interesting initiatives.</div>
+            <img class="group-child50" alt="" src="public/gordon.svg" />
+          </div>
+          <img class="vector-icon5" alt="" src="public/vector4.svg" /><img class="vector-icon6" alt=""
+            src="public/vector5.svg" />
+        </div>
+        <div class="group-parent8">
+          <div class="group-parent7">
+            <div class="group-child48"></div>
+            <img class="group-child52" alt="" src="public/group-8.svg" />
+            <div class="alexandar">Mithran</div>
+            <div class="good-experience">Good Experience</div>
+            <div class="lorem-ipsum-dolor-sit-amet-con11"> I got industrial working experience from GRIT Digitech pvt
+              ltd.I gather real time professional experience in short period of time</div>
+            <img class="group-child50" alt="" src="public/ellipse-6@2x.png" />
+          </div>
+          <img class="vector-icon5" alt="" src="public/vector4.svg" /><img class="vector-icon6" alt=""
+            src="public/vector5.svg" />
+        </div>
+        <div class="group-parent9">
+          <div class="group-parent7">
+            <div class="group-child48"></div>
+            <img class="group-child55" alt="" src="public/group-8.svg" />
+            <div class="sofia-roger">Rhea Ilan</div>
+            <div class="good-experience">Great Work</div>
+            <div class="lorem-ipsum-dolor-sit-amet-con11">Grit Digitech Pvt LTD specialist in helping various clients
+              across the SEA to build their web and mobile.</div>
+            <img class="group-child56" alt="" src="public/ellipse-7@2x.png" />
+          </div>
+          <img class="vector-icon5" alt="" src="public/vector4.svg" /><img class="vector-icon6" alt=""
+            src="public/vector5.svg" />
+        </div>
+        <div class="group-parent10">
+          <div class="group-parent7">
+            <div class="group-child48"></div>
+            <img class="group-child58" alt="" src="public/group-11.svg" />
+            <div class="robert">Rithesh</div>
+            <div class="good-experience">Friendly Staffs</div>
+            <div class="lorem-ipsum-dolor-sit-amet-con11">
+              I believe GRIT Team work attitude is positive and commitment in work deliverance is excellent</div>
+            <img class="group-child59" alt="" src="public/ellipse-8@2x.png" />
+          </div>
+          <img class="vector-icon5" alt="" src="public/vector4.svg" /><img class="vector-icon6" alt=""
+            src="public/vector5.svg" />
+        </div>
+      </div>
+    </div>
+    <!--client feedback end-->
+    <div class="see-what-our-client-says-parent">
+      <div class="plus">See What Our Client Says</div>
+      <div class="view-all-group">
+        <div class="view-all1">View all</div>
+        <img class="chevron-right-icon1" alt="" src="public/chevronright.svg" />
+      </div>
+    </div>
+
+
+    <div id="contact" class="desktop-3-inner1">
+      <div id="contact" class="rectangle-parent23">
+        <div class="group-child60"></div>
+        <img class="group-child62" alt="" src="public/vector-86.svg" />
+        <div class="links-parent">
+          <div class="links style6"><strong>LINKS</strong></div>
+          <div class="home style1"><a href="#home" class="style2">Home</a></div>
+          <!-- <div class="pricing">Pricing</div> -->
+          <div class="cookie-policy2 style1"><a href="#about" class="style2">AboutUs</a></div>
+          <div class="cookie-policy1 style2">Services</div>
+          <div class="cookie-policy style1"><a href="https://www.linkedin.com/company/grittalents/"
+              class="style2">Careers</a></div>
+        </div>
+
+
+        <div class="need-help-parent">
+          <a class="twitter-timeline" data-width="680" data-height="290" data-dnt="true" data-theme="dark"
+            href="https://twitter.com/GritCareer?ref_src=twsrc%5Etfw">Tweets by GritCareer</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div>
+        <!--<div class="legal-parent">
+            <div class="need-help">LEGAL</div>
+            <div class="home">Terms of use</div>
+            <div class="pricing">Terms & Conditions</div>
+            <div class="about-us">Privacy Policy</div>
+            <div class="cookie-policy">Cookie Policy</div>
+            <div class="features">Privacy & Terms</div>
+          </div>!-->
+        <div class="rectangle-parent24">
+          <div class="group-child63"></div>
+          <div class="group-frame">
+            <div class="rectangle-parent25">
+              <div class="group-child64"></div>
+              <div class="get-quote1 style1"><a href="demo.html" onClick="newPopup(this.href);return false">Get Quote
+              </div>
+            </div>
+          </div>
+          <div class="enter-your-mail">Enter Your Mail</div>
+        </div>
+        <div class="contact-us1 style6"><strong>Contact Us</strong></div>
+        <div class="image-27-parent">
+          <a href="https://twitter.com/GritCareer"> <img class="image-27-icon" alt=""
+              src="public/image-27@2x.png" /></a>
+          <a href="https://www.facebook.com/grit.found"><img class="image-28-icon" alt=""
+              src="public/image-28@2x.png" /></a>
+
+          <a href="https://www.linkedin.com/company/grit-digitech/mycompany/"><img class="image-29-icon" alt=""
+              src="public/linkedin.svg" /></a><a href="https://www.youtube.com/watch?v=SY3G-Qwo0gU"><img
+              class="image-30-icon" alt="" src="public/image-30@2x.png" /></a>
+        </div>
+        <img class="icon2" alt="" src="public/2-1-12@2x.png" /><b class="grit-digitech1"><span>GR</span><span
+            class="it">IT</span><span> </span><span class="digitech">DIGITECH</span></b>
+        <div class="address style6"><strong>Address</strong></div>
+        <div class="voc-street-sivaganga-container">
+          <p align="justify" class="voc-street-sivaganga style5"> 59, VOC Street,
+            Sivaganga - 630 561, Tamilnadu, India.</p>
+          <p align="justify" class="voc-street-sivaganga style5">&nbsp;</p>
+          <p align="justify" class="voc-street-sivaganga style5">NEED HELP ? </p>
+          <p align="justify" class="voc-street-sivaganga style5"> Ph:+8610342869,</p>
+          <p class="mail-id-ajgritdigitechcom style1 style5">
+            Mail id: aj@gritdigitech.com </p>
+        </div>
+        <div class="copyright-2022-container style7">
+          <span class="style8">Copyright 2023 - All Right Reserved By</span> <span class="style2"><a
+              class="grit-digitech-pvt-ltd" href="https://www.gritdigitech.com/" target="_blank">GRIT Digitech - Pvt
+              Ltd</a></span>
+        </div>
+      </div>
+    </div>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-d88916f8-869a-4d0c-b081-e8daab6249fa"></div>
+  </div>
+
+
+
+</body>
+
+<!-- <a  href="https:/wa.me/919344446762"  target="_blank" class="whatsapp_float"><i  class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+   <style>
+   /*whatsapp style*/
+   .whatsapp_float {
+     position:fixed;
+     width: 60px;
+     height: 60px;
+     bottom: 40px;
+	 left:1650px;
+     right: 30px;
+     background-color: #25d366;
+     color: #fff;
+     border-radius: 50px;
+     text-align: center;
+     font-size: 30px;
+
+     z-index: 100;
+   }
+   .whatsapp-icon {
+     margin-top: 16px;
+   }
+
+   /* for mobile */
+   @media screen and (max-width: 767px){
+     .whatsapp-icon {
+       margin-top: 10px;
+     }
+     .whatsapp_float {
+       width: 40px;
+       height: 40px;
+       bottom: 20px;
+       right: 10px;
+       font-size: 22px;
+     }
+   }
+
+
+  </style>-->
+
+</html>

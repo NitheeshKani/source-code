@@ -1,0 +1,848 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+
+
+
+@media only screen and (min-width: 768px)
+{
+body {
+  margin: 30;
+  line-height: normal;
+  width: 100%;
+}
+desktop-2-child {
+  
+  left: 770px;
+  
+}
+desktop-2-inner,
+desktop-2-item {
+  
+  left: 1135px;
+ 
+  
+}
+.desktop-2-inner {
+  left: 16%;
+  
+}.icon1 {
+  
+  left: 338px;
+  
+}
+grit-digitech {  
+  left: 410px;  
+}
+contact-us { 
+  left: 1220px;  
+}
+chevron-down-icon { 
+  left: 91px;  
+}
+services-parent {  
+  left: 900px; 
+}
+chevron-down-icon1 {  
+  left: 94px;  
+}
+products-parent {  
+  left: 1060px;  
+}
+group-child6 {
+  
+  left:  -105px;
+  
+}
+csr {
+  
+  left: 15px;
+  
+}
+rectangle-parent6 {
+ 
+  left: 1420px;
+  
+}
+
+group-child7 {
+ 
+  left: -40px;
+  
+  
+}
+rectangle-parent7 {
+  
+  left: 750px;
+  
+}
+
+
+
+your-business-partner-in-smart {
+ 
+  left: 26px;
+ 
+}
+ellipse-parent {
+  
+  left: 275px;
+  
+  
+}
+
+helping-our-customers-digitall {
+ 
+  left: 10px;
+ 
+}
+ellipse-group,
+.group-child9 {
+  
+  
+  left: 275px;
+  
+}
+
+get-quote-for-free {
+  
+  left: 29px;
+ 
+}
+rectangle-parent8 {
+ 
+  left: 378px;
+  
+}
+starting-a-business-project-pa {
+  
+  left: 994px;
+ 
+}
+why-choose-us {
+ 
+  left: 770px;
+  
+}
+
+group-child11 {
+  
+  left: 24px;
+ 
+}
+e-learning-icon-1 { 
+  left: 38px;
+  
+}
+vernacular-digital-education {
+  
+  left: 24px;
+  ;
+}
+lorem-ipsum-dolor-sit-amet-con {
+  
+  left: 24px;
+  
+
+}
+rectangle-parent9,
+services-icon-1 {
+  
+  left: 275px;
+  
+}
+.services-icon-1 {
+  
+  left: 42px;
+  
+}
+.rectangle-parent10 {
+  
+  
+  left: 620px;
+ 
+}
+market-research-icon-1 {
+ 
+  left: 37px;
+  
+}
+rectangle-parent11 {
+ 
+  left: 620px;
+  
+}
+file-upload-export-icon-2 {
+ 
+  left: 46px;
+  
+}
+
+content-upload-and-access {
+ 
+  left: 24px;
+  
+}
+group-child18,
+rectangle-parent12 {
+ 
+  left: 1310px;
+  
+}
+
+rich-icon-1 {
+ 
+  left: 41px;
+  
+}
+lorem-ipsum-dolor-sit-amet-con4 {
+  
+  left: 24px;
+  
+}
+rectangle-parent13 {
+ 
+  left: 965px;
+  
+}
+data-analysis-icon-1 {
+ 
+  left: 37px;
+  
+}
+rectangle-parent14 {
+  
+ 
+  left: 275px;
+  
+}
+world-wide-web-icon-1 {
+  
+  left: 39px;
+ 
+}
+rectangle-parent15 {
+ 
+  left: 965px;
+ 
+}
+government-icon-1 {
+ 
+  left: 44px;
+ 
+}
+rectangle-parent16 {
+ 
+  left: 1310px;
+  
+}
+
+group-child26,
+line-div {
+  
+  left: 209px;
+ 
+}
+group-child26 {
+  left: 358px;
+}
+plus-parent {
+  
+  left: 278px;
+  
+}
+
+desktop-2-inner1,
+vector-icon {
+ 
+  left: 275px;
+  
+}
+vector-icon {
+  
+  left: 659.78px;
+  
+}
+bouncy-yellow-paper-plane-1-icon {
+  
+  left: 984px;
+  
+}
+
+
+group-child29,
+group-child30 {
+  left: 80px;
+  
+}
+group-child30 {
+  left: 133px;
+  
+}
+
+
+
+
+group-child32 {
+  left: 289px;
+ 
+}
+get-quote,
+read-more {
+  
+  left: 85px;
+ 
+}
+.read-more {
+  left: 372px;
+ 
+}
+learning-as-a-service-platform-parent {
+  
+  left: 971px;
+  
+}
+
+group-child34,
+group-child35,
+group-child36,
+group-child37,
+group-child38,
+group-child39,
+group-child40 {
+  left: 217px;
+}
+.group-child35,
+.group-child36,
+.group-child37,
+.group-child38,
+.group-child39,
+.group-child40 {
+  left: 434px;
+}
+.group-child36,
+.group-child37,
+.group-child38,
+.group-child39,
+.group-child40 {
+  left: 651px;
+}
+
+.group-child38,
+.group-child39,
+.group-child40 {
+  left: 217px;
+}
+.group-child39,
+.group-child40 {
+  left: 434px;
+}
+.group-child40 {
+  left: 651px;
+}
+image-132-icon,
+image-133-icon {
+  
+  left: 30px;
+  
+}
+.image-133-icon {
+  
+  left: 236px;
+  
+}
+image-134-icon,
+image-135-icon,
+image-136-icon {
+  
+  left: 24px;
+  
+}
+.image-135-icon,
+.image-136-icon {
+  
+  left: 452px;
+  
+}
+.image-136-icon {
+  
+  left: 241px;
+ 
+}
+.image-137-icon,
+.image-138-icon,
+.image-139-icon {
+  
+  left: 697px;
+ 
+}
+image-138-icon,
+image-139-icon {
+  
+  left: 475px;
+  
+}.image-139-icon {
+ 
+  left: 673px;
+ 
+}
+rectangle-parent17 {
+ 
+  left: 971px;
+  
+}
+.our-proud-partners {
+ 
+  left: 34px;
+ 
+}
+
+
+
+
+rectangle-parent18 {
+  
+  left: 47px;
+ 
+}
+our-proud-partners-parent {
+  
+  left: 305px;
+ 
+}
+image-140-icon {
+  
+  left: 325px;
+  
+}
+recognized-by {
+  
+  left: 825px;
+  
+}
+group-child42 {
+  
+  left: 182px;
+ 
+}
+
+
+
+.group-child45,
+.group-child46,
+.group-child47 {
+  
+  left: 1px;
+ 
+}
+.group-child46,
+.group-child47 {
+  
+  left: 325px;
+}
+.group-child47 {
+ 
+  left: 324px;
+}
+.vector-icon1,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+ 
+  left: 60px;
+  
+}
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  
+  left: 385px;
+}
+.vector-icon3,
+.vector-icon4 {
+  top: 367px;
+}
+.vector-icon4 {
+  
+  left: 61px;
+}
+.e-learning-icon-1-1 {
+ 
+  left: 94px;
+  
+}
+.learning-as-a-service-platform1 {
+ 
+  left: 13px;
+  
+}
+.web-application-development {
+  
+  left: 338px;
+  
+}
+.blockchain-development,
+.mobile-application-development {
+ 
+  left: 330px;
+  
+}
+.blockchain-development {
+ 
+  left: 35px;
+}
+.socially-purpose-driven-busine1 {
+ 
+  left: 20px;
+  
+  
+  
+}
+.mobile-application-development1,
+.this-is-simply-a-program-or-pl,
+.this-is-the-creation-of-applic {
+  
+  left: 342px;
+  
+}
+.mobile-application-development1,
+.this-is-simply-a-program-or-pl {
+  
+  left: 347px;
+  
+}
+.this-is-simply-a-program-or-pl {
+  
+
+  left: 24px;
+  width: 211px;
+}
+.mobile-app-dev-icon-1,
+.web-development-icon-1 {
+ 
+  left: 424px;
+ 
+}
+.mobile-app-dev-icon-1 {
+  
+  left: 441px;
+  
+}
+.ellipse-container {
+  
+  left: 225px;
+ 
+}
+.blockchain-development-icon-1 {
+  
+  left: 325px;
+  
+}
+.group-parent3 {
+  
+  left: 752px;
+  
+}
+.kids-studying-from-home-rafiki {
+ 
+  left: 275px;
+ 
+}
+
+
+.
+.we-provide-quality-services-th {
+ 
+  left: 28px;
+ 
+}
+
+
+
+.lorem-ipsum-dolor-sit-amet-con-parent {
+ 
+  left: 305px;
+  
+}
+
+.group-child49 {
+  
+  left: 36.56%;
+  
+}
+.clean-service,
+.joseph {
+ 
+  left: 112px;
+ 
+}
+.clean-service {
+  
+  left: 23px;
+  
+}
+.lorem-ipsum-dolor-sit-amet-con10 {
+  
+  left: 23px;
+  
+}
+.group-child50 {
+  
+  left: 23px;
+  
+}
+.vector-icon5,
+.vector-icon6 {
+  
+  left: 221px;
+ 
+}
+.vector-icon6 {
+  
+  left: 77.38%;
+  
+}
+
+.group-child52 {
+  
+  left: 36.56%;
+  
+}
+.alexandar,
+.good-experience {
+  
+  left: 112px;
+  
+}
+.good-experience {
+ 
+  left: 23px;
+  
+}
+.lorem-ipsum-dolor-sit-amet-con11 {
+  
+  left: 23px;
+ 
+}
+.group-child55,
+.group-parent8 {
+ 
+  left: 327px;
+ 
+}
+.group-child55 {
+ 
+  left: 36.56%;
+  
+}
+.sofia-roger {
+  
+  left: 112px;
+ 
+}
+.group-child56 {
+ 
+  left: 23px;
+  
+}
+.group-child58,
+.group-parent9 {
+ 
+  left: 651px;
+  
+}
+.group-child58 {
+  
+  left: 36.56%;
+  
+}
+.robert {
+  
+  left: 112px;
+  
+}
+.group-child59 {
+ 
+  left: 23px;
+  
+}
+.group-parent10,
+.group-parent6 {
+ 
+  left: 975px;
+ 
+}
+
+.view-all1 {
+ 
+  left: -437px;
+  
+}
+.chevron-right-icon1 {
+  
+  left: -365px;
+ 
+}
+.view-all-group {
+  
+  left: 91.8%;
+  
+}
+.group-parent5,
+.see-what-our-client-says-parent {
+  
+  left: 470px;
+ 
+}
+.group-parent5 {
+ 
+  left: 305px;
+  
+}
+
+
+
+.group-child60,
+.group-child61 {
+  
+  left: -1px;
+  
+}
+
+
+
+.links-parent {
+  
+  left: 20px;
+  
+}
+
+.home
+{
+
+	left: 3px;
+	height: 21px;
+}
+,
+.pricing {
+
+	left: 58px;
+	height: 20px;
+}
+.about-us,
+.features,
+.links-parent {
+ 
+  left: 510px;
+}
+.cookie-policy {
+ 
+  left: -3px;
+}
+.cookie-policy1 {
+  
+  left: -3px;
+}
+
+
+.need-help-parent {
+  
+  left: 782px;
+  
+}
+
+
+
+.group-child63,
+.legal-parent { 
+  left: 555px;  
+}
+
+
+.rectangle-parent24 {  
+  left: 1036px;  
+}
+
+.group-child63,
+.legal-parent {  
+  left: 380px;  
+}
+
+
+
+.group-frame {
+ 
+  left: 188px;
+}
+.get-quote1 {
+  
+  left: 25px;
+  
+}
+.enter-your-mail {
+ 
+  left: 24px;
+  
+}
+.contact-us1 {
+  
+  left: 1036px;
+  
+}
+.icon2,
+.image-27-parent {
+ 
+  left: 1078px;
+  
+}
+.icon2 {
+  
+  left: 80px;
+  
+}
+
+.image-28-icon,
+.image-29-icon,
+.image-30-icon {
+  left: 64px;
+}
+.image-29-icon,
+.image-30-icon {
+  left: 128px;
+}
+.image-30-icon {
+  left: 192px;
+}
+
+.address,
+.grit-digitech1 {
+  
+  left: 80px;
+ 
+}
+
+
+
+.voc-street-sivaganga-container {
+ 
+  left: 81px;
+  
+}
+
+
+.copyright-2022-container {
+ 
+  left: 483px;
+  
+}
+
+
+
+
+
+
+}
